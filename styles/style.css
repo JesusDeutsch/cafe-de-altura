@@ -1,0 +1,973 @@
+
+*{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+/* INICIO DE NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 100%;
+    background-color:#2B2A2B;
+    color: #E1E1E1;
+    height: 64px;
+}
+
+/*                                      LOGO Y WEB       */
+
+.navbarLogo{
+    display: flex;
+    align-items: center;
+    width: 213.86px;
+    height: 36px;
+    gap: 7.33px;
+}
+
+#web {
+   width: 186px;
+   height: 36px;
+   opacity: 86%;
+   font-size: 23.46px;
+   line-height: 35.19px;
+   margin: opx;
+}
+#coffeeIcon{
+    width: 20.53px;
+    height: 24.93px;
+}
+
+/*                                               MENU WRAPP                */
+
+.navbarMenu{
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 512px;
+    height: 32px;
+    gap: 16px;
+}
+
+.navbarMenuLi >a{
+    text-decoration: none;
+    color: #E1E1E1;
+        
+}
+        
+.navbarMenuLi:hover {
+    height: 32px;
+    border-radius: 10px;
+    padding: 8px;
+    gap: 8px;
+    background-color:#F7F5F31A;
+    cursor: pointer;
+}
+
+/*                          INICIO DE SESISON Y NUMERO DE CONTACTO */
+.navbarLogin {
+    align-items: center;
+    min-width: 288px;
+    height: 40px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+    /*                              CONTACTO     */
+
+.contact{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 24px;
+    gap: 8px;
+    width: 150px;
+    margin: auto;
+}
+
+#PhoneIcon{
+    width: 24px;
+    height: 24px;
+}
+
+#numberContact{
+    display: flex;
+    width: 102px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+/*                           INICIO DE SESION */
+
+.login{ 
+    display: flex;
+    width: 130px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #515051;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonLogin {
+    display: flex;
+    font-size: 14px;
+    line-height: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbarShopping{
+    height: 24px;
+    width: 24px;
+}
+/*                                 FIN DE NAVBAR */
+
+/*                                          DESCRIPCION DE PAGINA        */
+
+.descriptionPageContainer {
+    display: flex;
+    width: 100%;
+    height: 486px;
+    align-items: center;
+    justify-content: center;
+    background: #E3DED74D;
+}
+
+.descriptionPageContainerItems {
+
+height: 390px;
+gap: 24px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.textDescription{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 588px;
+    height: 232px;
+    gap: 16px;
+}
+
+#pretitleTextDescription{
+    display: flex;
+    width: 588px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2A5B45;
+}
+
+#h1TextDescription {
+    display: flex;
+    width: 588px;
+    height: 88px;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 600;
+    color: #000;
+}
+
+#pTextDescription
+{
+ width: 588px;
+ height: 32px;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 16px;   
+ color: #111827;
+}
+
+/*                      BOTONES DEL PRIMER CONTENEDOR "DESCRIPTION PAGE" */
+
+.descriptionPageContainerButtons{
+    display: flex;
+    align-items: center;
+    justify-content:left ;
+    gap: 16px;
+}
+
+.buttonBlackDesign{
+width: 168px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 8px;
+background-color: #1F1815;
+border-radius: 4px;
+}
+
+#buttonBlack{
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.buttonGreenDesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 137px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #2A5B45;
+    gap: 8px;
+
+}
+
+#buttonGreen{
+    display: flex;
+    justify-content: center;
+    width: 89px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* IMAGEN ARBOL DE CAFE */
+
+#three-coffee-img{
+    width: 588px;
+    height: 390px;
+    border-radius: 20px;
+}
+
+/*                      CARDS DE PEDIDOS, ENVIOS Y DESCUENTOS                */
+
+.cardsContainer {
+    width: 100%;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(/assets/Cards/backgroundcards.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    gap: 24px;
+}
+
+#titleCardsH2{
+    display: flex;
+    width: 350px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+}
+
+.cardsWrapper{
+    display: flex;
+    align-items: center;
+    width: 996px;
+    gap: 24px;
+}
+
+.cardsGreensStyles{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 316px;
+    height: 232px;
+    border-radius: 8px;
+    border: 1px;
+    padding: 24px;
+    gap: 16px;
+    background-color: #F7F5F3;
+    padding: 0px;
+}
+
+.cardsGreensStyles > img{
+    width: 64px;
+    height: 64px;
+    border-radius: 20px;
+    padding: 12px;
+    gap: 8px;
+    background-color: #2A5B45;
+}
+
+.cardsGreensStyles > h3 {
+    width: 268px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.cardsGreensStyles > p {
+    width: 268px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+/*                                                      FIN DE CARDS                        */
+
+
+
+/*                                                  INICIO DE CARDS DE TIPOS CAFE */
+
+.coffeeNewsContainer{
+    width: 100%;
+    height: 603.39px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+/*                                                      TITULO DE CARDS */
+#tittleCardsCoffee{
+    width: 120px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2A5B45;
+
+}
+/*                                                                  CARDS */
+.cardsCoffeeContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 391.39px;
+    gap: 24px;
+}
+
+.cardsCoffee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 282px;
+    height: 391.39px;
+    border-radius: 8px;
+    border: 1px #E3DED7 solid;
+    gap: 24px;
+}
+
+.cardsCoffee:hover {
+    background-color: #F7F5F3;
+    cursor: pointer;
+}
+
+.bagCoffeeImg {
+    width: 219.39px;
+    height: 219.39px;
+}
+
+.ProductInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.ProductInfo > h3 {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.ProductInfo > p {
+    font-size: 14px;
+    font-weight: 400;
+}
+/*                                                      DISEÑO DE BOTON */
+.buttonBackgroundBagCoffee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 32px;
+    border-radius: 4px;
+    padding: 8px;
+    gap: 8px;
+    background: #2A5B45B2;
+}
+
+.buttonBackgroundBagCoffee > a {
+    width: 44px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: white;
+    text-decoration: none;
+}
+/*                                                  ENLACE A VER TODOS LOS TIPOS DE CAFE */
+
+.seeMoreCoffee {
+    display: flex;
+    align-items: center;
+    width: 101px;
+    height: 24px;
+    gap: 16px;
+}
+
+.seeMoreCoffee > a {
+    display: flex;
+    width: 61px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #000; 
+}
+
+.seeMoreCoffee > img {
+    display: flex;
+    height: 24px;
+    width: 24px;
+}
+/*                                              PREGUNTAS FRECUENTES|  */
+
+.frequentQuestionsContainer {
+    width: 100%;
+    height: 621px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    background-color: #2A5B45;
+}
+
+.frequentQuestionsContainer > h2 {
+    width: 228px;
+    height: 28px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+}
+
+.DropdownContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 668px;
+    height: 425px;
+    gap: 26px;
+}
+.dropdownStyle {
+    display: flex;
+    width: 668px;
+    border-radius: 10px;
+    padding: 24px;
+    gap: 16px;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+summary {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+summary > h3 {
+    display: flex;
+    height: 24px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.divide {
+    width: 620px;
+    border-bottom: 1px #E3DED7 solid; 
+}
+.reply{
+    display: flex;
+    width: 620px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #2B2A2B;
+}
+
+.linkHelpContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 178px;
+    height: 24px;
+    gap: 16px;
+}
+
+.linkHelpContainer > a {
+    width: 138px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: white;
+    text-decoration: underline;
+}
+.linkHelpContainer > img {
+    height: 24px;
+    width: 24px;
+}
+ .featureSectionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 480px;
+    background-color: #F7F5F3;
+ }
+
+.featureSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 390px;
+}
+
+.textFeatureSection {
+    display: flex;
+    flex-direction: column;
+    width: 457px;
+    height: 116px;
+    gap: 16px;
+}
+
+.textFeatureSection > h2{
+    width: 340px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2A5B45;
+}
+
+.textFeatureSection > p {
+    width: 457px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #111827;
+}
+
+.featureSectionDirection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 118px;
+    height: 24px;
+    gap: 16px;
+}
+
+.featureSectionDirection > a {
+    width: 78px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+}
+
+/*                                                  SECCION DE CONTACTO              */
+
+.contactTwoToneContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 552px;
+    background-color: #E3DED7;
+}
+.contactTwoTone {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 552px;
+    gap: 24px;
+}
+
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 588px;
+    height: 320px;
+    gap: 32px;
+}
+
+.contactTwoToneHeader {
+    display: flex;
+    flex-direction: column;
+    width: 588px;
+    height: 68px;
+    gap: 12px;
+}
+
+.contactTwoToneHeader > h3 {
+    width: 588px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #111827;
+}
+
+.contactTwoToneHeader > p {
+    width: 588px;
+    height: 32px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6B7280;
+}
+
+.contactTwoToneContent {
+    display: flex;
+    flex-direction: column;
+    width: 588px;
+    height: 220px;
+    gap: 24px;
+     font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6B7280;
+}
+
+.iconsContactTwoTone {
+    display: flex;
+    align-items: center;
+    width: 588px;
+    height: 24px;
+    gap: 12px;
+
+}
+.iconsContactTwoTone > img {
+    width: 24px;
+    height: 24px;
+}
+
+.contactTwoToneContent > p > a {
+    color: #000;
+    font-weight: 600;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 588px;
+    height: 552px;
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    height: 488px;
+    gap: 24px;
+}
+
+.containerInputAndLabel {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    height: 54px;
+    gap: 4px;
+}
+
+.labelStyle {
+    width: 96px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #374151;
+}
+
+.imputStyle {
+    width: 470px;
+    height: 34px;
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+}
+
+.numberPhoneContainer {
+    display: flex;
+    align-items: center;
+    width: 470px;
+    height: 38px;
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    gap: 4px;
+}
+
+.selectNumberArea {
+    display: flex;
+    align-items: center;
+    width: 68px;
+    height: 38px;
+    border: hidden;
+    border-radius: 6px;
+    text-align: center;
+}
+.numberPhone{
+    border: hidden;
+}
+
+
+.containerTexArea {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    height: 142px;
+    gap: 4px;
+}
+.DesignTextArea {
+    width: 470px;
+    height: 122px;
+    border-radius: 6px;
+    border: 1px solid #D1D5DB
+}
+
+
+
+
+
+                                        /* TERNMNINOS Y CONDICIONES  */
+
+.containerTermsFormn{
+    display: flex;
+    align-items: center;  
+    gap: 12px;
+    width: 442px;
+    height: 16px;
+}
+
+
+.labelTermsForm {
+    width: 442px;
+    height: 16px;
+    color: #374151;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.labelTermsForm > a {
+    color: #374151;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+.buttonFormDesign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 4px;
+    gap: 4px;
+    background-color: #2A5B45;
+}
+
+.buttonFormDesign > p {
+    color: white;
+    width: 42px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+                    /*  FOOTER */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 310px;
+    background-color: #1F1815;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 204px;
+    gap: 16px;
+}
+/*                                                          LOGO */
+.footerLogo {
+    display: flex;
+    width: 288px;
+    height: 36px;
+    gap: 7.33px;
+}
+.footerLogo > p {
+    width: 186px;
+    height: 36px;
+    font-weight: 400;
+    font-size: 23.46px;
+    line-height: 35.19px;
+    color: white;
+}
+.footerLogo > img {
+    width: 20.53px;
+    height: 24.93px;
+}
+
+
+/*                                                   MENU                                                                            */
+
+
+.menuContainer {
+  width: 1132px;
+  height: 152px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.helpContact {
+    display: flex;
+    flex-direction: column;
+    width: 255.33px;
+    height: 152px;
+    gap: 16px;   
+}
+
+.helpContact > h3 {
+    width: 131px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.designButtonPhone {
+    display: flex;
+    align-items: center;
+    width: 182px;
+    height: 48px;
+    border-radius: 4px;
+    gap: 8px;
+    background-color: #515051;
+}
+
+.designButtonPhone > img {
+    width: 24px;
+    height: 24px;
+}
+
+.designButtonPhone > p {
+    width: 102px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.designButtonMail {
+    display: flex;
+    align-items: center;
+    width: 232px;
+    height: 48px;
+    border-radius: 4px;
+    gap: 8px;
+    background-color: #515051;
+}
+
+.designButtonMail > img {
+    width: 24px;
+    height: 24px;
+}
+
+.designButtonMail > p {
+    width: 152px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.menuWrapper1 {
+    display: flex;
+    flex-direction: column;
+    width: 96px;
+    height: 144px;
+    gap: 16px;
+}
+
+.menuWrapper1 > p {
+    height: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.menuWrapper2 {
+    display: flex;
+    flex-direction: column;
+    width: 255.33px;
+    height: 80px;
+    gap: 16px;
+}
+
+.menuWrapper2 > p {
+    height: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2B2A2B;
+    width: 1280px;
+    height: 40px;
+}
+
+.copyright > p {
+    color: white;
+    width: 359px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
