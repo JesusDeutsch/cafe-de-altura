@@ -64,7 +64,7 @@
 .navbarMenuLi:hover {
   background-color: #f7f5f31a;
   cursor: pointer;
-  background-size: 32px 
+  background-size: 32px;
 }
 /*                          INICIO DE SESISON Y NUMERO DE CONTACTO */
 #navbarLogin {
@@ -333,7 +333,7 @@
   background-color: #f7f5f3;
 }
 .cardsCoffee:hover .buttonBackgroundBagCoffee {
-  background-color: #2A5B45;
+  background-color: #2a5b45;
 }
 .bagCoffeeImg {
   width: 219.39px;
@@ -404,7 +404,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #2A5B45;
+  background-color: #2a5b45;
   transition: all 1s ease-in;
   gap: 24px;
 }
@@ -440,14 +440,14 @@
   background-color: white;
   transition: all 1s ease;
   overflow: hidden;
-  color: #2B2A2B;
+  color: #2b2a2b;
 }
 .questions {
   width: 620px;
   height: 24px;
   display: flex;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 .questions > h3 {
   width: 290px;
@@ -465,7 +465,7 @@
 }
 .divider {
   width: 0px;
-  border: 1px solid #E3DED7
+  border: 1px solid #e3ded7;
 }
 .faqStyle:hover {
   height: 136px;
@@ -476,7 +476,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  color: #2B2A2B;
+  color: #2b2a2b;
   transition: all 0.5s ease;
 }
 .faqStyle:hover img {
@@ -496,7 +496,6 @@
   justify-content: center;
   width: 178px;
   height: 72px;
-  
 }
 #linkHelpContainer > a {
   display: flex;
@@ -562,7 +561,7 @@
   align-items: center;
   gap: 16px;
 }
-#featureSectionDirection > a > p{
+#featureSectionDirection > a > p {
   width: 78px;
   height: 16px;
   font-weight: 600;
@@ -682,12 +681,11 @@ form {
   box-shadow: 0px 1px 2px 0px #0000000d;
 }
 .inputStyle:hover {
-  border-color: #9B9EA3;
+  border-color: #9b9ea3;
 }
 .inputStyle:focus {
-  outline: #3F8F6B solid 2px;
-  box-shadow: 0px 1px 2px 0px #0000000D;
-
+  outline: #3f8f6b solid 2px;
+  box-shadow: 0px 1px 2px 0px #0000000d;
 }
 #numberPhoneContainer {
   display: flex;
@@ -700,10 +698,10 @@ form {
   gap: 4px;
 }
 #numberPhoneContainer:focus-within {
-  outline: #3F8F6B solid 2px;
+  outline: #3f8f6b solid 2px;
 }
 #numberPhoneContainer:hover {
-  border-color: #9B9EA3;
+  border-color: #9b9ea3;
 }
 #inputPhoneForm {
   display: flex;
@@ -747,13 +745,13 @@ textarea {
   padding-top: 10px;
 }
 .designTextArea:focus-within {
-  outline: #3F8F6B solid 2px;
+  outline: #3f8f6b solid 2px;
 }
 .designTextArea:hover {
-  border-color: #9B9EA3;
+  border-color: #9b9ea3;
 }
 .checkboxStyle {
-  accent-color: #3F8F6B;
+  accent-color: #3f8f6b;
 }
 /* TERNMNINOS Y CONDICIONES  */
 #containerTermsFormn {
