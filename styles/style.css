@@ -7,7 +7,7 @@
   padding: 0;
 }
 /* INICIO DE NAVBAR */
-.navbar {
+#navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -17,17 +17,14 @@
   color: #e1e1e1;
   height: 64px;
 }
-
 /*                                      LOGO Y WEB       */
-
-.navbarLogo {
+#navbarLogo {
   display: flex;
   align-items: center;
   width: 213.86px;
   height: 36px;
   gap: 7.33px;
 }
-
 #web {
   width: 186px;
   height: 36px;
@@ -40,10 +37,8 @@
   width: 20.53px;
   height: 24.93px;
 }
-
 /*                                               MENU WRAPP                */
-
-.navbarMenu {
+#navbarMenu {
   list-style: none;
   align-items: center;
   justify-content: center;
@@ -52,14 +47,11 @@
   height: 32px;
   gap: 16px;
 }
-
 .navbarMenuLi > a {
   color: #e1e1e1;
   text-decoration: none;
   border-radius: 10px;
-
 }
-
 .navbarMenuLi {
   display: flex;
   justify-content: center;
@@ -69,15 +61,13 @@
   padding-left: 8px;
   padding-right: 8px;
 }
-
 .navbarMenuLi:hover {
   background-color: #f7f5f31a;
   cursor: pointer;
   background-size: 32px 
 }
-
 /*                          INICIO DE SESISON Y NUMERO DE CONTACTO */
-.navbarLogin {
+#navbarLogin {
   align-items: center;
   min-width: 288px;
   height: 40px;
@@ -85,10 +75,8 @@
   gap: 24px;
   justify-content: center;
 }
-
 /*                              CONTACTO     */
-
-.contact {
+#contact {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -97,12 +85,10 @@
   width: 150px;
   margin: auto;
 }
-
 #PhoneIcon {
   width: 24px;
   height: 24px;
 }
-
 #numberContact {
   display: flex;
   width: 102px;
@@ -111,10 +97,8 @@
   font-size: 14px;
   font-weight: 600;
 }
-
 /*                           INICIO DE SESION */
-
-.login {
+#login {
   display: flex;
   width: 130px;
   height: 40px;
@@ -123,7 +107,6 @@
   justify-content: center;
   align-items: center;
 }
-
 #buttonLogin {
   display: flex;
   font-size: 14px;
@@ -131,34 +114,29 @@
   text-decoration: none;
   color: white;
 }
-
-.navbarShopping {
+#navbarShopping {
   height: 24px;
   width: 24px;
 }
 /*                                 FIN DE NAVBAR */
-
 /*                                          DESCRIPCION DE PAGINA        */
-
-.descriptionPageContainer {
+#descriptionPageContainer {
   padding-top: 64px;
   display: flex;
-  width: 1280px;
+  width: 100%;
   height: 486px;
   align-items: center;
   justify-content: center;
   background: #e3ded74d;
 }
-
-.descriptionPageContainerItems {
+#descriptionPageContainerItems {
   height: 390px;
   gap: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.textDescription {
+#textDescription {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -166,7 +144,6 @@
   height: 232px;
   gap: 16px;
 }
-
 #pretitleTextDescription {
   display: flex;
   width: 588px;
@@ -176,7 +153,6 @@
   line-height: 24px;
   color: #2a5b45;
 }
-
 #h1TextDescription {
   display: flex;
   width: 588px;
@@ -186,7 +162,6 @@
   font-weight: 600;
   color: #000;
 }
-
 #pTextDescription {
   width: 588px;
   height: 32px;
@@ -195,17 +170,14 @@
   line-height: 16px;
   color: #111827;
 }
-
 /*                      BOTONES DEL PRIMER CONTENEDOR "DESCRIPTION PAGE" */
-
-.descriptionPageContainerButtons {
+#descriptionPageContainerButtons {
   display: flex;
   align-items: center;
   justify-content: left;
   gap: 16px;
 }
-
-.buttonBlackDesign {
+#buttonBlackDesign {
   width: 168px;
   height: 40px;
   display: flex;
@@ -215,7 +187,6 @@
   background-color: #1f1815;
   border-radius: 4px;
 }
-
 #buttonBlack {
   display: flex;
   justify-content: center;
@@ -227,8 +198,7 @@
   color: #ffffff;
   text-decoration: none;
 }
-
-.buttonGreenDesign {
+#buttonGreenDesign {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -238,7 +208,6 @@
   background-color: #2a5b45;
   gap: 8px;
 }
-
 #buttonGreen {
   display: flex;
   justify-content: center;
@@ -250,19 +219,15 @@
   color: #ffffff;
   text-decoration: none;
 }
-
-/* IMAGEN ARBOL DE CAFE */
-
+/*                                        IMAGEN ARBOL DE CAFE */
 #three-coffee-img {
   width: 588px;
   height: 390px;
   border-radius: 20px;
 }
-
-/*                      CARDS DE PEDIDOS, ENVIOS Y DESCUENTOS                */
-
-.cardsContainer {
-  width: 1280px;
+/*                                            CARDS DE PEDIDOS, ENVIOS Y DESCUENTOS                */
+#cardsContainer {
+  width: 100%;
   height: 380px;
   display: flex;
   align-items: center;
@@ -274,7 +239,6 @@
   background-size: cover;
   gap: 24px;
 }
-
 #titleCardsH2 {
   display: flex;
   width: 350px;
@@ -284,14 +248,12 @@
   line-height: 28px;
   color: white;
 }
-
-.cardsWrapper {
+#cardsWrapper {
   display: flex;
   align-items: center;
   width: 996px;
   gap: 24px;
 }
-
 .cardsGreensStyles {
   display: flex;
   justify-content: center;
@@ -306,7 +268,6 @@
   background-color: #f7f5f3;
   padding: 0px;
 }
-
 .cardsGreensStyles > img {
   width: 40px;
   height: 40px;
@@ -315,7 +276,6 @@
   gap: 8px;
   background-color: #2a5b45;
 }
-
 .cardsGreensStyles > h3 {
   width: 268px;
   font-weight: 600;
@@ -323,20 +283,16 @@
   line-height: 24px;
   text-align: center;
 }
-
 .cardsGreensStyles > p {
   width: 268px;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
 }
-
 /*                                                      FIN DE CARDS                        */
-
 /*                                                  INICIO DE CARDS DE TIPOS CAFE */
-
-.coffeeNewsContainer {
-  width: 1280px;
+#coffeeNewsContainer {
+  width: 100%;
   height: 603.39px;
   display: flex;
   flex-direction: column;
@@ -354,7 +310,7 @@
   color: #2a5b45;
 }
 /*                                                                  CARDS */
-.cardsCoffeeContainer {
+#cardsCoffeeContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -362,7 +318,6 @@
   height: 391.39px;
   gap: 24px;
 }
-
 .cardsCoffee {
   display: flex;
   flex-direction: column;
@@ -374,21 +329,16 @@
   border: 1px #e3ded7 solid;
   gap: 24px;
 }
-
-
 .cardsCoffee:hover {
   background-color: #f7f5f3;
 }
-
 .cardsCoffee:hover .buttonBackgroundBagCoffee {
   background-color: #2A5B45;
 }
-
 .bagCoffeeImg {
   width: 219.39px;
   height: 219.39px;
 }
-
 .ProductInfo {
   display: flex;
   justify-content: center;
@@ -396,12 +346,10 @@
   align-items: center;
   gap: 12px;
 }
-
 .ProductInfo > h3 {
   font-weight: 600;
   font-size: 14px;
 }
-
 .ProductInfo > p {
   font-size: 14px;
   font-weight: 400;
@@ -417,9 +365,6 @@
   gap: 8px;
   background: #2a5b45b2;
 }
-
-
-
 .buttonBackgroundBagCoffee > a {
   width: 44px;
   height: 16px;
@@ -430,34 +375,30 @@
   text-decoration: none;
 }
 /*                                                  ENLACE A VER TODOS LOS TIPOS DE CAFE */
-
-.seeMoreCoffee {
+#seeMoreCoffee {
   display: flex;
-  align-items: center;
   width: 101px;
   height: 24px;
+}
+#seeMoreCoffee > a {
+  display: flex;
+  align-items: center;
   gap: 16px;
 }
-
-.seeMoreCoffee > a {
-  display: flex;
-  width: 61px;
+#linkSeeMoreCoffee {
   height: 16px;
   font-size: 14px;
   font-weight: 600;
   line-height: 16px;
   color: #000;
 }
-
-.seeMoreCoffee > img {
-  display: flex;
+.arrow {
   height: 24px;
   width: 24px;
 }
 /*                                              PREGUNTAS FRECUENTES|  */
-
-.faqcontainer {
-  min-width: 1280px;
+#faqcontainer {
+  width: 100%;
   min-height: 444x;
   display: flex;
   flex-direction: column;
@@ -467,8 +408,7 @@
   transition: all 1s ease-in;
   gap: 24px;
 }
-
-.faqcontainer > h2 {
+#faqcontainer > h2 {
   display: flex;
   align-items: end;
   width: 228px;
@@ -479,8 +419,7 @@
   color: white;
   padding-bottom: 17px;
 }
-
-.faq {
+#faq {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -489,7 +428,6 @@
   min-height: 216px;
   gap: 16px;
 }
-
 .faqStyle {
   display: flex;
   flex-direction: column;
@@ -503,9 +441,7 @@
   transition: all 1s ease;
   overflow: hidden;
   color: #2B2A2B;
-
 }
-
 .questions {
   width: 620px;
   height: 24px;
@@ -513,7 +449,6 @@
   align-items: center;
   justify-content:space-between;
 }
-
 .questions > h3 {
   width: 290px;
   height: 24px;
@@ -521,7 +456,6 @@
   font-size: 18px;
   line-height: 24px;
 }
-
 .questions > img {
   width: 10px;
   height: 6px;
@@ -529,17 +463,13 @@
   margin-left: 5px;
   transition: all 1s ease;
 }
-
 .divider {
   width: 0px;
   border: 1px solid #E3DED7
 }
-
 .faqStyle:hover {
   height: 136px;
-
 }
-
 .faqStyle > p {
   width: 620px;
   height: 32px;
@@ -549,33 +479,31 @@
   color: #2B2A2B;
   transition: all 0.5s ease;
 }
-
 .faqStyle:hover img {
   transform: rotate(180deg);
 }
-
 .faqStyle:hover p {
   width: 620px;
   height: 32px;
 }
-
 .faqStyle:hover .divider {
   width: 620px;
   display: flex;
   gap: 10px;
-
 }
-
-.linkHelpContainer {
+#linkHelpContainer {
   display: flex;
   justify-content: center;
   width: 178px;
   height: 72px;
+  
+}
+#linkHelpContainer > a {
+  display: flex;
+  align-items: center;
   gap: 16px;
 }
-
-.linkHelpContainer > a {
-  width: 138px;
+#linkHelpContainer > a > p {
   height: 16px;
   font-size: 14px;
   font-weight: 600;
@@ -583,36 +511,30 @@
   color: white;
   text-decoration: underline;
 }
-.linkHelpContainer > img {
-  height: 24px;
-  width: 24px;
-}
-.featureSectionContainer {
+/*                                                        CAFETERIA Y DIRECCION                          */
+#featureSectionContainer {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1280px;
+  width: 100%;
   height: 480px;
   background-color: #f7f5f3;
 }
-
-.featureSection {
+#featureSection {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 1200px;
   height: 390px;
 }
-
-.textFeatureSection {
+#textFeatureSection {
   display: flex;
   flex-direction: column;
   width: 457px;
   height: 116px;
   gap: 16px;
 }
-
-.textFeatureSection > h2 {
+#textFeatureSection > h2 {
   width: 340px;
   height: 28px;
   font-weight: 500;
@@ -620,8 +542,7 @@
   line-height: 28px;
   color: #2a5b45;
 }
-
-.textFeatureSection > p {
+#textFeatureSection > p {
   width: 457px;
   height: 32px;
   font-size: 14px;
@@ -629,17 +550,19 @@
   line-height: 16px;
   color: #111827;
 }
-
-.featureSectionDirection {
+#featureSectionDirection {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 118px;
   height: 24px;
+}
+#featureSectionDirection > a {
+  display: flex;
+  align-items: center;
   gap: 16px;
 }
-
-.featureSectionDirection > a {
+#featureSectionDirection > a > p{
   width: 78px;
   height: 16px;
   font-weight: 600;
@@ -647,25 +570,22 @@
   line-height: 16px;
   color: #000;
 }
-
 /*                                                  SECCION DE CONTACTO              */
-
-.contactTwoToneContainer {
+#contactTwoToneContainer {
   display: flex;
   justify-content: space-around;
-  width: 1280px;
+  width: 100%;
   height: 552px;
   background-color: #e3ded7;
 }
-.contactTwoTone {
+#contactTwoTone {
   display: flex;
   align-items: center;
   width: 1200px;
   height: 552px;
   gap: 24px;
 }
-
-.contactSection {
+#contactSection {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -674,16 +594,14 @@
   height: 320px;
   gap: 32px;
 }
-
-.contactTwoToneHeader {
+#contactTwoToneHeader {
   display: flex;
   flex-direction: column;
   width: 588px;
   height: 68px;
   gap: 12px;
 }
-
-.contactTwoToneHeader > h3 {
+#contactTwoToneHeader > h3 {
   width: 588px;
   height: 24px;
   font-weight: 600;
@@ -691,8 +609,7 @@
   line-height: 24px;
   color: #111827;
 }
-
-.contactTwoToneHeader > p {
+#contactTwoToneHeader > p {
   width: 588px;
   height: 32px;
   font-weight: 400;
@@ -700,8 +617,7 @@
   line-height: 16px;
   color: #6b7280;
 }
-
-.contactTwoToneContent {
+#contactTwoToneContent {
   display: flex;
   flex-direction: column;
   width: 588px;
@@ -712,7 +628,6 @@
   line-height: 16px;
   color: #6b7280;
 }
-
 .iconsContactTwoTone {
   display: flex;
   align-items: center;
@@ -724,13 +639,11 @@
   width: 24px;
   height: 24px;
 }
-
-.contactTwoToneContent > p > a {
+#contactTwoToneContent > p > a {
   color: #000;
   font-weight: 600;
 }
-
-.formContainer {
+#formContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -739,7 +652,6 @@
   background-color: white;
   box-shadow: 0px 4px 4px 0px #00000040;
 }
-
 form {
   display: flex;
   flex-direction: column;
@@ -747,7 +659,6 @@ form {
   height: 488px;
   gap: 24px;
 }
-
 .containerInputAndLabel {
   display: flex;
   flex-direction: column;
@@ -755,7 +666,6 @@ form {
   height: 54px;
   gap: 4px;
 }
-
 .labelStyle {
   width: 96px;
   height: 16px;
@@ -764,7 +674,6 @@ form {
   line-height: 16px;
   color: #374151;
 }
-
 .inputStyle {
   width: 470px;
   height: 34px;
@@ -775,14 +684,12 @@ form {
 .inputStyle:hover {
   border-color: #9B9EA3;
 }
-
 .inputStyle:focus {
   outline: #3F8F6B solid 2px;
   box-shadow: 0px 1px 2px 0px #0000000D;
 
 }
-
-.numberPhoneContainer {
+#numberPhoneContainer {
   display: flex;
   align-items: center;
   width: 490px;
@@ -792,13 +699,17 @@ form {
   box-shadow: 0px 1px 2px 0px #0000000d;
   gap: 4px;
 }
-.numberPhoneContainer:focus-within {
+#numberPhoneContainer:focus-within {
   outline: #3F8F6B solid 2px;
 }
-.numberPhoneContainer:hover {
+#numberPhoneContainer:hover {
   border-color: #9B9EA3;
 }
-
+#inputPhoneForm {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
 .selectNumberArea {
   display: flex;
   align-items: center;
@@ -809,13 +720,11 @@ form {
   border-radius: 6px;
   text-align: center;
 }
-
 .numberPhone {
   border: 0px;
   outline: none;
 }
-
-.containerTexArea {
+#containerTexArea {
   display: flex;
   flex-direction: column;
   width: 470px;
@@ -832,37 +741,29 @@ input {
   padding-left: 10px;
   padding-right: 10px;
 }
-
 textarea {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
 }
-
 .designTextArea:focus-within {
   outline: #3F8F6B solid 2px;
 }
 .designTextArea:hover {
   border-color: #9B9EA3;
 }
-
 .checkboxStyle {
   accent-color: #3F8F6B;
 }
-
-
-
 /* TERNMNINOS Y CONDICIONES  */
-
-.containerTermsFormn {
+#containerTermsFormn {
   display: flex;
   align-items: center;
   gap: 12px;
   width: 442px;
   height: 16px;
 }
-
-.labelTermsForm {
+#labelTermsForm {
   width: 442px;
   height: 16px;
   color: #374151;
@@ -870,15 +771,14 @@ textarea {
   line-height: 16px;
   font-weight: 400;
 }
-
-.labelTermsForm > a {
+#labelTermsForm > a {
   color: #374151;
   font-size: 14px;
   line-height: 16px;
   font-weight: 600;
 }
 /*                                                                          BOTON DE SUBMIT */
-.buttonFormDesign {
+#buttonFormDesign {
   border: 0px;
   display: flex;
   align-items: center;
@@ -890,8 +790,7 @@ textarea {
   background-color: #2a5b45;
   cursor: pointer;
 }
-
-.buttonFormDesign > p {
+#buttonFormDesign > p {
   color: white;
   width: 42px;
   height: 16px;
@@ -900,7 +799,6 @@ textarea {
   line-height: 16px;
 }
 /*                                                           FOOTER */
-
 footer {
   display: flex;
   flex-direction: column;
@@ -910,8 +808,7 @@ footer {
   height: 310px;
   background-color: #1f1815;
 }
-
-.footerContainer {
+#footerContainer {
   display: flex;
   flex-direction: column;
   width: 1200px;
@@ -920,14 +817,14 @@ footer {
   margin-left: 40px;
   margin-top: 28.61px;
 }
-/*                                                          LOGO */
-.footerLogo {
+#footerLogo {
   display: flex;
+  align-items: center;
   width: 288px;
   height: 36px;
   gap: 7.33px;
 }
-.footerLogo > p {
+#footerLogo > p {
   width: 186px;
   height: 36px;
   font-weight: 400;
@@ -935,14 +832,12 @@ footer {
   line-height: 35.19px;
   color: white;
 }
-.footerLogo > img {
+#footerLogo > img {
   width: 20.53px;
   height: 24.93px;
 }
-
 /*                                                   MENU    FOOTER                                                                        */
-
-.menuContainer {
+#menuContainer {
   width: 1132px;
   height: 152px;
   display: flex;
@@ -950,8 +845,7 @@ footer {
   justify-content: space-between;
   color: white;
 }
-
-.helpContact {
+#helpContact {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -959,16 +853,14 @@ footer {
   height: 152px;
   gap: 16px;
 }
-
-.helpContact > h3 {
+#helpContact > h3 {
   width: 131px;
   height: 24px;
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
 }
-
-.designButtonPhone {
+#designButtonPhone {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -978,21 +870,18 @@ footer {
   gap: 8px;
   background-color: #515051;
 }
-
-.designButtonPhone > img {
+#designButtonPhone > img {
   width: 24px;
   height: 24px;
 }
-
-.designButtonPhone > p {
+#designButtonPhone > p {
   width: 102px;
   height: 16px;
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
 }
-
-.designButtonMail {
+#designButtonMail {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1002,21 +891,18 @@ footer {
   gap: 8px;
   background-color: #515051;
 }
-
-.designButtonMail > img {
+#designButtonMail > img {
   width: 24px;
   height: 24px;
 }
-
-.designButtonMail > p {
+#designButtonMail > p {
   width: 152px;
   height: 16px;
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
 }
-
-.menuWrapper1 {
+#menuWrapper1 {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -1028,15 +914,13 @@ footer {
   bottom: 5.39px;
   right: 459px;
 }
-
-.menuWrapper1 > p {
+#menuWrapper1 > p {
   height: 16px;
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
 }
-
-.menuWrapper2 {
+#menuWrapper2 {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -1047,19 +931,15 @@ footer {
   left: 800px;
   bottom: 69px;
   right: 76.67px;
- 
 }
-
-.menuWrapper2 > p {
+#menuWrapper2 > p {
   height: 16px;
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
 }
-
 /*                                                          COPYRIGHT */
-
-.copyright {
+#copyright {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1067,8 +947,7 @@ footer {
   width: 100%;
   height: 40px;
 }
-
-.copyright > p {
+#copyright > p {
   display: flex;
   justify-content: center;
   align-items: center;
