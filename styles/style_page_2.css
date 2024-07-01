@@ -1,0 +1,483 @@
+* {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+  }
+  /* INICIO DE NAVBAR */
+  #navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #2b2a2b;
+    color: #e1e1e1;
+    height: 64px;
+  }
+  /*                                      LOGO Y WEB       */
+  #navbarLogo {
+    display: flex;
+    align-items: center;
+    width: 213.86px;
+    height: 36px;
+    gap: 7.33px;
+  }
+  #web {
+    width: 186px;
+    height: 36px;
+    opacity: 86%;
+    font-size: 23.46px;
+    line-height: 35.19px;
+    margin: opx;
+  }
+  #coffeeIcon {
+    width: 20.53px;
+    height: 24.93px;
+  }
+  /*                                               MENU WRAPP                */
+  #navbarMenu {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-width: 512px;
+    height: 32px;
+    gap: 16px;
+  }
+  .navbarMenuLi > a {
+    color: #e1e1e1;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  .navbarMenuLi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .navbarMenuLi:hover {
+    background-color: #f7f5f31a;
+    cursor: pointer;
+    background-size: 32px;
+  }
+  /*                          INICIO DE SESISON Y NUMERO DE CONTACTO */
+  #navbarLogin {
+    align-items: center;
+    min-width: 288px;
+    height: 40px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+  }
+  /*                              CONTACTO     */
+  #contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 24px;
+    gap: 8px;
+    width: 150px;
+    margin: auto;
+  }
+  #PhoneIcon {
+    width: 24px;
+    height: 24px;
+  }
+  #numberContact {
+    display: flex;
+    width: 102px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  /*                           INICIO DE SESION */
+  #login {
+    display: flex;
+    width: 130px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #515051;
+    justify-content: center;
+    align-items: center;
+  }
+  #buttonLogin {
+    display: flex;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color: white;
+  }
+  #navbarShopping {
+    height: 24px;
+    width: 24px;
+  }
+
+  /* 
+                            CONTENEDOR DE CARDS                
+*/
+
+
+#containerWrappers{
+    width: 100%;
+    height: 938.79px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 40px;
+}
+
+#containerWrappers>h2{
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+}
+.wrapperCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 391.39px;
+    gap: 24px;
+}
+
+.cardsCoffee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 282px;
+    height: 391.39px;
+    border-radius: 8px;
+    border: 1px #e3ded7 solid;
+    gap: 24px;
+}
+
+.cardsCoffee:hover {
+    background-color: #f7f5f3;
+}
+
+.cardsCoffee>img {
+      width: 219.39px;
+      height: 219.39px;
+}
+.ProductInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.ProductInfo > h3 {
+    font-weight: 600;
+    font-size: 14px;
+}
+.ProductInfo > p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.buttonStyle{
+    
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.buttonStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 32px;
+    border-radius: 4px;
+    gap: 8px;
+    background: #2a5b45b2;
+    color: white;
+  }
+
+
+.cardsCoffee .buttonStyle:hover {
+    background-color: #2a5b45;
+}
+
+
+.cardsCoffeeSoldOut{
+    opacity: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 282px;
+    height: 391.39px;
+    border-radius: 8px;
+    border: 1px #e3ded7 solid;
+    gap: 24px;
+}
+
+.cardsCoffee:hover {
+    background-color: #f7f5f3;
+}
+
+.cardsCoffee>img {
+     width: 219.39px;
+     height: 219.39px;
+}
+
+.buttonStyleSoldOut{
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+    height: 32px;
+    border-radius: 4px;
+    gap: 8px;
+    color: white;
+    background:#E3DED7;
+}
+/* -------------------------------- SEGUNDA SECCION --------------------------------------------------------------------------------- */
+
+/*                                            CARDS DE PEDIDOS, ENVIOS Y DESCUENTOS                */
+#cardsContainer {
+    width: 100%;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(/assets/Cards/backgroundcards.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    gap: 24px;
+  }
+  #titleCardsH2 {
+    display: flex;
+    width: 350px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+  }
+  #cardsWrapper {
+    display: flex;
+    align-items: center;
+    width: 996px;
+    gap: 24px;
+  }
+  .cardsGreensStyles {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 316px;
+    height: 232px;
+    border-radius: 8px;
+    border: 1px;
+    padding: 24px;
+    gap: 16px;
+    background-color: #f7f5f3;
+    padding: 0px;
+  }
+  .cardsGreensStyles > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 12px;
+    gap: 8px;
+    background-color: #2a5b45;
+  }
+  .cardsGreensStyles > h3 {
+    width: 268px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .cardsGreensStyles > p {
+    width: 268px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+  }
+
+  /* -----------------------------------------FOOTER----------------------------------------------------------------------- */
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 1280px;
+    height: 310px;
+    background-color: #1f1815;
+  }
+  #footerContainer {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 204px;
+    gap: 16px;
+    margin-left: 40px;
+    margin-top: 28.61px;
+  }
+  #footerLogo {
+    display: flex;
+    align-items: center;
+    width: 288px;
+    height: 36px;
+    gap: 7.33px;
+  }
+  #footerLogo > p {
+    width: 186px;
+    height: 36px;
+    font-weight: 400;
+    font-size: 23.46px;
+    line-height: 35.19px;
+    color: white;
+  }
+  #footerLogo > img {
+    width: 20.53px;
+    height: 24.93px;
+  }
+  /*                                                   MENU    FOOTER                                                                        */
+  #menuContainer {
+    width: 1132px;
+    height: 152px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    color: white;
+  }
+  #helpContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 255.33px;
+    height: 152px;
+    gap: 16px;
+  }
+  #helpContact > h3 {
+    width: 131px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  #designButtonPhone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 182px;
+    height: 48px;
+    border-radius: 4px;
+    gap: 8px;
+    background-color: #515051;
+  }
+  #designButtonPhone > img {
+    width: 24px;
+    height: 24px;
+  }
+  #designButtonPhone > p {
+    width: 102px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  #designButtonMail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 232px;
+    height: 48px;
+    border-radius: 4px;
+    gap: 8px;
+    background-color: #515051;
+  }
+  #designButtonMail > img {
+    width: 24px;
+    height: 24px;
+  }
+  #designButtonMail > p {
+    width: 152px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  #menuWrapper1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 96px;
+    height: 144px;
+    gap: 16px;
+    left: 577px;
+    top: 2.61px;
+    bottom: 5.39px;
+    right: 459px;
+  }
+  #menuWrapper1 > p {
+    height: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  #menuWrapper2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 255.33px;
+    height: 80px;
+    gap: 16px;
+    top: 3px;
+    left: 800px;
+    bottom: 69px;
+    right: 76.67px;
+  }
+  #menuWrapper2 > p {
+    height: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  /*                                                          COPYRIGHT */
+  #copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2b2a2b;
+    width: 100%;
+    height: 40px;
+  }
+  #copyright > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 359px;
+    height: 80px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  
